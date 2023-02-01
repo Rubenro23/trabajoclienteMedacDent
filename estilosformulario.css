@@ -1,0 +1,64 @@
+body{
+    background:#A0C3D2;
+    margin: 0%;
+}
+
+.header{
+    background:aliceblue;
+    color: black;
+    height: 60px;
+    text-align:center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.medacdent{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.piedepagina{
+    background-color:aliceblue;
+    padding: 1em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin-top: auto;
+    width: 100%;   
+    margin-bottom: auto;
+}
+#form{
+    margin-top: 5px;
+    text-align: center;
+    border: 1px solid aliceblue;
+    max-width: 80%;
+    margin: auto;
+    
+    
+    
+}
+
+.datos{
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;   
+}
+
+#name{
+    margin-top: 10px;
+}
+
+.cita{
+margin-bottom: 10px;
+}
+
+.enviar{
+    
+    margin-bottom: 30px;
+}
+

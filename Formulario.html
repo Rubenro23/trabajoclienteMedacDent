@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title> Pedir Cita</title>
+        <link rel="stylesheet" type="text/css" href="estilosformulario.css">
+        <link rel="icon" href="diente.png">
+    </head>
+    <body>
+        <div class="header">
+            <a href="ClinicaDental.html" class="medacdent"><img src="diente.png" height="40px" width="40px"> MedacDent</a>
+        </div>
+        <h2>Formulario</h2>
+        <form  action="" method="post" id="form">
+            
+             <div>
+                <p><label class="datos">Nombre: <input type="text" name="nombre"  id="name"></label></p>
+            </div>
+            <div>
+                <p><label class="datos">Apellidos: <input type="text" name="apellidos"  id="surname"></label></p>
+            </div>
+            <div>
+                <p><label class="datos">Telefono: <input type="text" name="telefono" pattern="[0-9]+" minlength="0" maxlength="9" id="mobile" ></label></p>
+                
+            </div>
+            <div >
+                <p><label class="datos">Fecha de Nacimiento: <input type="date" name="fecha"  id="age"></label></p>   
+            </div>
+            <div >
+                <p><label class="datos">DNI: <input type="text" name="dni" maxlength="9" id="dni"></label></p> 
+            </div>
+            <div >
+                <p><label class="datos">¿Cuando quiere la cita?</label></p>
+            </div>
+
+                <div class="cita"><input type="datetime-local" name="mes" id="day"></div>
+                
+                <br>
+                <br>
+               
+       
+                <button  type="button" class="enviar" onclick="guardar()">Guardar</button>
+                
+    
+
+        </form>
+        
+       
+
+
+
+
+
+
+
+
+        <footer class="piedepagina">
+            <a href="ClinicaDental.html"><img src="diente.png" height="30px" width="30px"> </a> 
+            <a href="https://twitter.com/" target="_blank"><img class="twitter" src="twitter.png" height="30px" width="30px" ></a>
+            <a href="https://www.instagram.com/" target="_blank"><img class="twitter" src="instagram.png" height="30px" width="30px"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img class="twitter" src="facebook.png" height="30px" width="30px"></a> 
+            <a href=""><img class="twitter" src="telefono.png" height="30px" width="30px"></a>
+        </footer>
+
+      
+        
+    </body> 
+</html>
+
+<script src="pacientes-form.js" type="text/javascript"></script>
